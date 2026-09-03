@@ -7,19 +7,22 @@
   <meta name="description" content="S3 designs and builds products teams actually launch." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <header class="nav">
     <div class="wrap nav-inner">
       <a class="logo" href="#top" aria-label="S3 home">S3</a>
+      <input type="checkbox" id="nav-open" class="nav-check" />
+      <label class="nav-burger" for="nav-open" aria-label="Menu"><span></span></label>
       <nav class="nav-links" aria-label="Primary">
         <a href="#work">Work</a>
         <a href="#services">Services</a>
         <a href="#about">About</a>
+        <a class="btn btn-primary nav-cta-mobile" href="#contact">Talk to us</a>
       </nav>
-      <a class="btn btn-primary" href="#contact">Talk to us</a>
+      <a class="btn btn-primary nav-cta-desk" href="#contact">Talk to us</a>
     </div>
   </header>
   <main id="top">
@@ -97,5 +100,6 @@
       </nav>
     </div>
   </footer>
+  <span class="font-warm" aria-hidden="true">Aa</span>
 </body>
 </html>
